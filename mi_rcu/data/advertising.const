@@ -1,0 +1,7 @@
+#define ADVERTISING_ITEM_OFFSET_FLAGS                                            2
+#define ADVERTISING_ITEM_OFFSET_MANUFACTURER_SPECIFIC_DATA                       5
+#define ADVERTISING_ITEM_OFFSET_SHORTENED_LOCAL_NAME                             9
+#define ADVERTISING_ITEM_OFFSET_INCOMPLETE_LIST_OF_16_BIT_SERVICE_CLASS_UUIDS    16
+#define ADVERTISING_ITEM_OFFSET_CLASS_OF_DEVICE                                  20
+#define ADVERTISING_ITEM_OFFSET_TX_POWER_LEVEL                                   25
+

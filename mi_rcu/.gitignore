@@ -1,0 +1,11 @@
+
+/output
+*.dep
+*.uvgui.*
+*.uvguix.*
+
+/.vscode
+
+*.un~
+*.swp
+*.bak

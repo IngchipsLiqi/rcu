@@ -1,0 +1,144 @@
+{
+ "com.ingchips.characteristic.fota.version": {
+  "uuid": "3345c2f1-6f36-45c5-8541-92f56728d5f3", 
+  "mandatory":true,
+  "value": [
+   {
+    "name": "App Major", 
+    "format": "uint16"
+   },
+   {
+    "name": "App Minor", 
+    "format": "uint8"
+   },
+   {
+    "name": "App Patch", 
+    "format": "uint8"
+   },
+   {
+    "name": "Platform Major", 
+    "format": "uint16"
+   },
+   {
+    "name": "Platform Minor", 
+    "format": "uint8"
+   },
+   {
+    "name": "Platform Patch", 
+    "format": "uint8"
+   }
+  ]
+ },
+ "com.ingchips.characteristic.fota.control": {
+  "uuid": "3345c2f2-6f36-45c5-8541-92f56728d5f3", 
+  "mandatory":true,
+  "value": [
+   {
+    "name": "Command", 
+    "format": "uint8"
+   }
+  ]
+ },
+ "com.ingchips.characteristic.fota.data": {
+  "uuid": "3345c2f3-6f36-45c5-8541-92f56728d5f3", 
+  "mandatory":true,
+  "value": [
+   {
+    "name": "Data", 
+    "format": "struct"
+   }
+  ]
+ },
+ "com.ingchips.characteristic.fota.pub_key": {
+  "uuid": "3345c2f4-6f36-45c5-8541-92f56728d5f3", 
+  "mandatory":false,
+  "value": [
+   {
+    "name": "PubKey", 
+    "format": "struct"
+   }
+  ]
+ },
+ "com.ingchips.characteristic.etag.control": {
+  "uuid": "1145c2f2-6f36-45c5-8541-92f56728d5f3", 
+  "mandatory":true,
+  "value": [
+   {
+    "name": "Command", 
+    "format": "uint8"
+   }
+  ]
+ },
+ "com.ingchips.characteristic.etag.data": {
+  "uuid": "1145c2f3-6f36-45c5-8541-92f56728d5f3", 
+  "mandatory":true,
+  "value": [
+   {
+    "name": "Data", 
+    "format": "struct"
+   }
+  ]
+ },
+ "com.ingchips.characteristic.etag.resolution": {
+  "uuid": "1145c2f4-6f36-45c5-8541-92f56728d5f3", 
+  "mandatory":true,
+  "value": [
+   {
+    "name": "width", 
+    "format": "uint16"
+   },
+   {
+    "name": "height", 
+    "format": "uint16"
+   }
+  ]
+ },
+ "com.ingchips.characteristic.rgb.control": {
+  "uuid": "1c190e92-37dd-4ac4-8154-0444c69274c2", 
+  "mandatory":true,
+  "value": [
+   {
+    "name": "Red", 
+    "format": "uint8"
+   },
+   {
+    "name": "Green", 
+    "format": "uint8"
+   },
+   {
+    "name": "Blue", 
+    "format": "uint8"
+   }
+  ]
+ },
+ "com.ingchips.characteristic.generic.input": {
+  "uuid": "bf83f3f1-399a-414d-9035-ce64ceb3ff67", 
+  "mandatory":true,
+  "value": [
+   {
+    "name": "Data", 
+    "format": "uint8s"
+   }
+  ]
+ },
+ "com.ingchips.characteristic.generic.output": {
+  "uuid": "bf83f3f2-399a-414d-9035-ce64ceb3ff67", 
+  "mandatory":true,
+  "value": [
+   {
+    "name": "Data", 
+    "format": "uint8s"
+   }
+  ]
+ },
+ "com.ingchips.characteristic.generic.information": {
+  "uuid": "10000001-494e-4743-4849-505355554944", 
+  "mandatory":true,
+  "value": [
+   {
+    "name": "Data", 
+    "format": "uint8s"
+   }
+  ]
+ }
+}

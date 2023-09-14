@@ -1,0 +1,61 @@
+T469C 000:019.886   SEGGER J-Link V7.22b Log File
+T469C 000:020.517   DLL Compiled: Jun 17 2021 17:22:49
+T469C 000:020.537   Logging started @ 2023-08-26 04:00
+T469C 000:020.556 - 20.565ms
+T469C 000:020.792 JLINK_SetWarnOutHandler(...)
+T469C 000:020.979 - 0.197ms
+T469C 000:021.002 JLINK_OpenEx(...)
+T469C 000:025.852   Firmware: J-Link Lite for Ghostyu compiled Jan 8 2018 13:10:00
+T469C 000:026.468   Firmware: J-Link Lite for Ghostyu compiled Jan 8 2018 13:10:00
+T469C 000:033.498   Hardware: V1.00
+T469C 000:033.585   S/N: 180100254
+T469C 000:033.651   OEM: SEGGER
+T469C 000:033.711   Feature(s): None
+T469C 000:036.439   TELNET listener socket opened on port 19021
+T469C 000:037.031   WEBSRV Starting webserver
+T469C 000:037.187   WEBSRV Webserver running on local port 19080
+T469C 000:037.218 - 16.226ms returns "O.K."
+T469C 000:037.247 JLINK_GetEmuCaps()
+T469C 000:037.267 - 0.029ms returns 0xB8EA5A33
+T469C 000:037.289 JLINK_TIF_GetAvailable(...)
+T469C 000:037.715 - 0.443ms
+T469C 000:037.747 JLINK_SetErrorOutHandler(...)
+T469C 000:037.766 - 0.028ms
+T469C 000:038.169 JLINK_ExecCommand("ProjectFile = "D:\work\ING_SDK\sdk\HID\mi_rcu\JLinkSettings.ini"", ...). 
+T469C 000:073.590   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T469C 000:084.156   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T469C 000:085.991   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T469C 000:186.965   Device "CORTEX-M4" selected.
+T469C 000:187.604 - 149.453ms returns 0x00
+T469C 000:190.655 JLINK_ExecCommand("Device = ING91600", ...). 
+T469C 000:194.424   Device "CORTEX-M4" selected.
+T469C 000:206.033 - 15.360ms returns 0x00
+T469C 000:206.112 JLINK_GetHardwareVersion()
+T469C 000:206.153 - 0.061ms returns 10000
+T469C 000:206.196 JLINK_GetDLLVersion()
+T469C 000:206.236 - 0.060ms returns 72202
+T469C 000:206.278 JLINK_GetOEMString(...)
+T469C 000:206.320 JLINK_GetFirmwareString(...)
+T469C 000:206.370 - 0.070ms
+T469C 000:220.094 JLINK_GetDLLVersion()
+T469C 000:220.150 - 0.065ms returns 72202
+T469C 000:220.171 JLINK_GetCompileDateTime()
+T469C 000:220.190 - 0.028ms
+T469C 000:222.646 JLINK_GetFirmwareString(...)
+T469C 000:222.689 - 0.053ms
+T469C 000:225.414 JLINK_GetHardwareVersion()
+T469C 000:225.468 - 0.064ms returns 10000
+T469C 000:228.618 JLINK_GetSN()
+T469C 000:228.668 - 0.059ms returns 180100254
+T469C 000:231.295 JLINK_GetOEMString(...)
+T469C 000:234.746 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T469C 000:236.535 - 1.821ms returns 0x00
+T469C 000:236.583 JLINK_HasError()
+T469C 000:237.579 JLINK_SetSpeed(5000)
+T469C 000:238.587 - 1.045ms
+T469C 000:238.653 JLINK_GetId()
+T469C 000:833.693 - 595.115ms returns 0x00000000
+T469C 002:233.267 JLINK_Close()
+T469C 002:271.813 - 38.589ms
+T469C 002:271.867   
+T469C 002:271.886   Closed

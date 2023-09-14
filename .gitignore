@@ -1,0 +1,7 @@
+
+*.dep
+*.uvgui.*
+*.uvguix.*
+*.un~
+*.swp
+*.bak
